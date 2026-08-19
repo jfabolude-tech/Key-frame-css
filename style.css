@@ -22,5 +22,8 @@ body {
     width: 100;
     height: 100;
     background: #fe5d9f;
-    
+    transition: 1s ease;   
+}
+.box:hover {
+    transform: rotate(45deg);
 }
